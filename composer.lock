@@ -1150,12 +1150,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/raffie-rest/adapter.git",
-                "reference": "d7b792c0eb2ed43ac1475c7d727042a548c62489"
+                "reference": "cdfc76bb5ed4e1324ac4461e73073e209c5da5d4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/raffie-rest/adapter/zipball/d7b792c0eb2ed43ac1475c7d727042a548c62489",
-                "reference": "d7b792c0eb2ed43ac1475c7d727042a548c62489",
+                "url": "https://api.github.com/repos/raffie-rest/adapter/zipball/cdfc76bb5ed4e1324ac4461e73073e209c5da5d4",
+                "reference": "cdfc76bb5ed4e1324ac4461e73073e209c5da5d4",
                 "shasum": ""
             },
             "require": {
@@ -1181,7 +1181,7 @@
             ],
             "description": "Laravel 5 Remote REST Adapter",
             "homepage": "https://github.com/raffie-rest",
-            "time": "2015-04-06 00:40:56"
+            "time": "2015-04-06 01:46:50"
         },
         {
             "name": "react/promise",
