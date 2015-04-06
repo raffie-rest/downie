@@ -19,8 +19,8 @@ return [
 			'base_url'    	=> 'https://api.pushover.net/1',
 			'defaults'	  	=> [
 				'query'	 	=> [
-					'token' => '',
-					'user'  => ''
+					'token' => env('PUSHOVER_TOKEN', ''),
+					'user'  => env('PUSHOVER_USER', '')
 				]
 			]
 	    ]
