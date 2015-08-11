@@ -5,8 +5,7 @@
 	"license": "MIT",
 	"type": "project",
 	"require": {
-		"laravel/framework": "5.0.*",
-		"guzzlehttp/guzzle": "5.0.*@dev",
+		"laravel/framework": "5.1.*",
 		"raffie-rest/adapter": "dev-master",
 		"pda/pheanstalk": "~3.0"
 	},
