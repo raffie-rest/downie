@@ -1,7 +1,11 @@
 <?php namespace App\Exceptions;
 
-use Exception;
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;
+
+use Exception,
+		GuzzleHttp\Exception\RequestException;
+
+use Log;
 
 class Handler extends ExceptionHandler {
 
@@ -24,6 +28,13 @@ class Handler extends ExceptionHandler {
 	 */
 	public function report(Exception $e)
 	{
+    if ($e instanceof RequestException) {
+      Log::error($e->getRequest()->getBody());
+
+      if ($e->hasResponse()) {
+          Log::error($e->getResponse()->getBody());
+      }
+    }
 		return parent::report($e);
 	}
 
